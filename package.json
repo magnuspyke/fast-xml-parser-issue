@@ -1,0 +1,23 @@
+{
+  "name": "fast-xml-parser-issue",
+  "version": "1.0.0",
+  "description": "Demonstrates an issue that arose between tags v4.5.3 and v4.5.4 of fast-xml-parser that is also present in v5.5.6.",
+  "keywords": [
+    "fast-xml-parser",
+    "single",
+    "tag",
+    "parsing",
+    "issue"
+  ],
+  "license": "ISC",
+  "author": "Matt Wenger",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fast-xml-parser-v4.5.3": "npm:fast-xml-parser@^4.5.3",
+    "fast-xml-parser-v4.5.4": "npm:fast-xml-parser@^4.5.4"
+  }
+}
